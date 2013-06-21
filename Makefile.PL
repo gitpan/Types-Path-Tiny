@@ -35,12 +35,9 @@ my %WriteMakefileArgs = (
     "File::Temp" => "0.18",
     "File::pushd" => 0,
     "List::Util" => 0,
-    "Moose" => 0,
-    "Test::Fatal" => 0,
-    "Test::More" => "0.96",
-    "Test::Requires" => 0
+    "Test::More" => "0.96"
   },
-  "VERSION" => "0.004",
+  "VERSION" => "0.005",
   "test" => {
     "TESTS" => "t/*.t"
   }

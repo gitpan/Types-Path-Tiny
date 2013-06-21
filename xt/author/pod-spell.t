@@ -24,7 +24,6 @@ Toby
 Inkster
 tobyink
 lib
-MooseX
 Types
 Path
 Tiny

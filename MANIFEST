@@ -7,14 +7,11 @@ META.yml
 Makefile.PL
 README
 dist.ini
-lib/MooseX/Types/Path/Tiny.pm
 lib/Types/Path/Tiny.pm
 perlcritic.rc
 t/00-compile.t
 t/00-report-prereqs.t
 t/basic.t
-t/moose.t
-t/moose_error.t
 tidyall.ini
 xt/author/critic.t
 xt/author/pod-spell.t

@@ -9,10 +9,7 @@ build_requires:
   File::Temp: 0.18
   File::pushd: 0
   List::Util: 0
-  Moose: 0
-  Test::Fatal: 0
   Test::More: 0.96
-  Test::Requires: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -31,12 +28,9 @@ no_index:
   package:
     - DB
 provides:
-  MooseX::Types::Path::Tiny:
-    file: lib/MooseX/Types/Path/Tiny.pm
-    version: 0.004
   Types::Path::Tiny:
     file: lib/Types/Path/Tiny.pm
-    version: 0.004
+    version: 0.005
 requires:
   Path::Tiny: 0
   Type::Library: 0.008
@@ -50,6 +44,6 @@ resources:
   bugtracker: https://github.com/dagolden/types-path-tiny/issues
   homepage: https://metacpan.org/release/Types-Path-Tiny
   repository: git://github.com/dagolden/types-path-tiny.git
-version: 0.004
+version: 0.005
 x_contributors:
   - 'Toby Inkster <tobyink@cpan.org>'

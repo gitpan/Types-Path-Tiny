@@ -4,7 +4,7 @@ use warnings;
 
 package Types::Path::Tiny;
 # ABSTRACT: Path::Tiny types and coercions for Moose and Moo
-our $VERSION = '0.004'; # VERSION
+our $VERSION = '0.005'; # VERSION
 
 use Path::Tiny qw();
 use Type::Library 0.008 -base, -declare => qw( Path AbsPath File AbsFile Dir AbsDir );
@@ -92,7 +92,7 @@ Types::Path::Tiny - Path::Tiny types and coercions for Moose and Moo
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 SYNOPSIS
 

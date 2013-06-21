@@ -2,7 +2,7 @@ NAME
     Types::Path::Tiny - Path::Tiny types and coercions for Moose and Moo
 
 VERSION
-    version 0.004
+    version 0.005
 
 SYNOPSIS
       ### specification of type constraint with coercion

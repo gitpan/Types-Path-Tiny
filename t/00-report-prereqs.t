@@ -16,11 +16,8 @@ my @modules = qw(
   File::Temp
   File::pushd
   List::Util
-  Moose
   Path::Tiny
-  Test::Fatal
   Test::More
-  Test::Requires
   Type::Library
   Type::Utils
   Types::Standard
