@@ -4,7 +4,7 @@ use warnings;
 
 package MooseX::Types::Path::Tiny;
 # ABSTRACT: Shim around Types::Path::Tiny for backwards compatibility
-our $VERSION = '0.003'; # VERSION
+our $VERSION = '0.004'; # VERSION
 
 use Type::Library -base;
 use Type::Utils qw(extends);
@@ -25,7 +25,7 @@ MooseX::Types::Path::Tiny - Shim around Types::Path::Tiny for backwards compatib
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 AUTHOR
 

@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Types::Path::Tiny",
   "PREREQ_PM" => {
     "Path::Tiny" => 0,
-    "Type::Library" => 0,
+    "Type::Library" => "0.008",
     "Type::Utils" => 0,
     "Types::Standard" => 0,
     "Types::TypeTiny" => "0.004",
@@ -40,7 +40,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.96",
     "Test::Requires" => 0
   },
-  "VERSION" => "0.003",
+  "VERSION" => "0.004",
   "test" => {
     "TESTS" => "t/*.t"
   }

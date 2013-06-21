@@ -33,13 +33,13 @@ no_index:
 provides:
   MooseX::Types::Path::Tiny:
     file: lib/MooseX/Types/Path/Tiny.pm
-    version: 0.003
+    version: 0.004
   Types::Path::Tiny:
     file: lib/Types/Path/Tiny.pm
-    version: 0.003
+    version: 0.004
 requires:
   Path::Tiny: 0
-  Type::Library: 0
+  Type::Library: 0.008
   Type::Utils: 0
   Types::Standard: 0
   Types::TypeTiny: 0.004
@@ -50,6 +50,6 @@ resources:
   bugtracker: https://github.com/dagolden/types-path-tiny/issues
   homepage: https://metacpan.org/release/Types-Path-Tiny
   repository: git://github.com/dagolden/types-path-tiny.git
-version: 0.003
+version: 0.004
 x_contributors:
   - 'Toby Inkster <tobyink@cpan.org>'

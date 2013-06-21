@@ -4,10 +4,10 @@ use warnings;
 
 package Types::Path::Tiny;
 # ABSTRACT: Path::Tiny types and coercions for Moose and Moo
-our $VERSION = '0.003'; # VERSION
+our $VERSION = '0.004'; # VERSION
 
 use Path::Tiny qw();
-use Type::Library -base, -declare => qw( Path AbsPath File AbsFile Dir AbsDir );
+use Type::Library 0.008 -base, -declare => qw( Path AbsPath File AbsFile Dir AbsDir );
 use Type::Utils;
 use Types::Standard qw( Str ArrayRef );
 use Types::TypeTiny 0.004 StringLike => { -as => "Stringable" };
@@ -92,7 +92,7 @@ Types::Path::Tiny - Path::Tiny types and coercions for Moose and Moo
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
